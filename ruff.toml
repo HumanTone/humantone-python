@@ -1,0 +1,27 @@
+line-length = 100
+target-version = "py310"
+
+[lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+    "RUF", # ruff-specific
+    "SIM", # flake8-simplify
+]
+ignore = [
+    "N818", # Allow Error suffix on exceptions (project convention)
+    "E501", # line-too-long handled by formatter
+]
+
+[lint.per-file-ignores]
+"tests/*" = ["N802", "N803"]  # allow non-snake-case in test fixtures
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"

@@ -1,0 +1,19 @@
+{
+  "plan": {
+    "id": "pro_monthly",
+    "name": "Pro Monthly",
+    "max_words": 1500,
+    "monthly_credits": 1000,
+    "api_access": true
+  },
+  "credits": {
+    "trial": 0,
+    "subscription": 820,
+    "extra": 150,
+    "total": 970
+  },
+  "subscription": {
+    "active": true,
+    "expires_at": "2026-05-08T00:00:00.000Z"
+  }
+}

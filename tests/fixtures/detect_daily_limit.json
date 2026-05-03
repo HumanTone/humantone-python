@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "Daily usage limit reached. You have used 30 of 30 allowed detections today.",
+  "time_to_next_renew": 3600
+}
