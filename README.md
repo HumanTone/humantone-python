@@ -6,8 +6,6 @@ Official Python SDK for [HumanTone](https://humantone.io). Humanize AI-generated
 [![Python versions](https://img.shields.io/pypi/pyversions/humantone-sdk.svg)](https://pypi.org/project/humantone-sdk/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> **Note on the package name:** the canonical name `humantone` on PyPI is currently held by an unrelated abandoned package. We publish under `humantone-sdk` for now and import as `import humantone`. After we recover the canonical name, `humantone-sdk` will continue to work as a deprecated alias.
-
 ## Install
 
 ```bash
